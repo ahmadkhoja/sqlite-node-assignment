@@ -1,16 +1,12 @@
 {
-  "name": "sql",
+  "name": "back",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "connect.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon connect.js"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "nodemon": "^1.17.4",
-    "sqlite3": "^4.0.0"
-  }
+  "license": "ISC"
 }
