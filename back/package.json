@@ -8,5 +8,12 @@
     "start": "nodemon connect.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-http-proxy": "^1.2.0",
+    "nodemon": "^1.17.4",
+    "sqlite3": "^4.0.0"
+  }
 }
