@@ -1,0 +1,22 @@
+{
+  "name": "sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd back && npm start",
+    "client": "cd front && npm start",
+    "start": "concurrently --kill-others-on-fail --names \"server client\" \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadkhoja/sqlite-node-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmadkhoja/sqlite-node-assignment/issues"
+  },
+  "homepage": "https://github.com/ahmadkhoja/sqlite-node-assignment#readme"
+}
